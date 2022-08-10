@@ -1,6 +1,7 @@
 # Arduino_Multi_LED_Microcontroller
 
 The loops this runs through:
+
 <img width="485" alt="Screen Shot 2022-08-09 at 8 35 20 PM" src="https://user-images.githubusercontent.com/66803124/183785201-ca90443e-098b-49fe-93da-1dda17f75b4a.png">
 
 I started with a single blinking LED and changed/played with the timing of the blink from 1:1 to 4:4 to manipulate the code more. 
@@ -8,12 +9,17 @@ I started with a single blinking LED and changed/played with the timing of the b
 
 I then wired up 8 lEDs each with their own transitorsm=, ground wire and 5v of power to the breadboard. 
 
+This is the Marque loop you see in the images of the various loops. The LEDs are timed in a way that two of them chase each other "around" the usually square sign. 
+<img width="415" alt="Screen Shot 2022-08-10 at 8 26 56 AM" src="https://user-images.githubusercontent.com/66803124/183900889-27c0d63e-9bd9-42fa-9cba-14b77ee4e616.png">
 
-https://user-images.githubusercontent.com/66803124/183900593-d81f0856-c799-46de-8553-8e5ca9ebc893.MOV
+Next I tried the ping pong where the LEDs run down the list and "hit" one end which causes them to bounce back running up the other way. 
+<img width="1057" alt="Screen Shot 2022-08-10 at 8 32 00 AM" src="https://user-images.githubusercontent.com/66803124/183901959-ab72083a-89d3-4c88-9ac3-89b408165753.png">
+<img width="1034" alt="Screen Shot 2022-08-10 at 8 32 43 AM" src="https://user-images.githubusercontent.com/66803124/183902083-6a4b0378-8407-4844-9997-2e70da01187b.png">
+<img width="1056" alt="Screen Shot 2022-08-10 at 8 33 27 AM" src="https://user-images.githubusercontent.com/66803124/183902235-e1faf26f-b946-4262-9d93-d64b8cca9e52.png">
 
+I tested out random blinking and street light blinking, and many more are possible. 
 
-
-
+#Here is the code that ran the microcontroller. 
 ```
 int ledPins[] = {2,3,4,5,6,7,8,9};
 
