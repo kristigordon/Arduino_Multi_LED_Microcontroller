@@ -3,6 +3,16 @@
 The loops this runs through:
 <img width="485" alt="Screen Shot 2022-08-09 at 8 35 20 PM" src="https://user-images.githubusercontent.com/66803124/183785201-ca90443e-098b-49fe-93da-1dda17f75b4a.png">
 
+I started with a single blinking LED and changed/played with the timing of the blink from 1:1 to 4:4 to manipulate the code more. 
+<img width="563" alt="Screen Shot 2022-08-10 at 8 22 31 AM" src="https://user-images.githubusercontent.com/66803124/183899971-c007317e-cf98-44e6-bd18-88e0cc7dc144.png">
+
+I then wired up 8 lEDs each with their own transitorsm=, ground wire and 5v of power to the breadboard. 
+
+
+https://user-images.githubusercontent.com/66803124/183900593-d81f0856-c799-46de-8553-8e5ca9ebc893.MOV
+
+
+
 
 ```
 int ledPins[] = {2,3,4,5,6,7,8,9};
