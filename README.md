@@ -7,7 +7,9 @@ The loops this runs through:
 I started with a single blinking LED and changed/played with the timing of the blink from 1:1 to 4:4 to manipulate the code more. 
 <img width="563" alt="Screen Shot 2022-08-10 at 8 22 31 AM" src="https://user-images.githubusercontent.com/66803124/183899971-c007317e-cf98-44e6-bd18-88e0cc7dc144.png">
 
-I then wired up 8 lEDs each with their own transitorsm=, ground wire and 5v of power to the breadboard. 
+I then wired up 8 lEDs each with their own transitors, ground wire and 5v of power to the breadboard. 
+<img width="683" alt="Screen Shot 2022-08-10 at 8 38 22 AM" src="https://user-images.githubusercontent.com/66803124/183903245-711410b3-6aa1-4a30-b832-a43ceeb2bfea.png">
+
 
 This is the Marque loop you see in the images of the various loops. The LEDs are timed in a way that two of them chase each other "around" the usually square sign. 
 
@@ -216,3 +218,5 @@ void randomLED()
 
 
 ```
+
+To try this out for yourself, take a look at SparkFun!
